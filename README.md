@@ -12,3 +12,8 @@ docker image with helm3 and kubectl baked in
 
     docker run --rm -it --entrypoint "" datenbetrieb/helm kubectl version
 
+# release
+
+quick and dirty, update, commit and tag a version
+
+```./release.sh 3.4.3```
